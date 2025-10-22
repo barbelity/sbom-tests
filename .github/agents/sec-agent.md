@@ -7,7 +7,7 @@ mcp-servers:
     url: 'https://productmcpdemo.jfrog.io/mcp'
     tools: ['*']
     env: 
-      ENV_VAR_NAME: ${{ secrets.COPILOT_MCP_ENV_VAR_VALUE }}
+      MCP_TOKEN: COPILOT_MCP_ENV_VAR_VALUE
   cloudflare:
     type: 'sse'
     url: 'https://docs.mcp.cloudflare.com/sse'
