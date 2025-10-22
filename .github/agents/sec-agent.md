@@ -2,7 +2,7 @@
 name: sec-agent
 description: agent that lists connected mcp tools
 mcp-servers: 
-  custom-mcp:
+  jfrog-remote-mcp:
     type: 'sse'
     url: 'https://productmcpdemo.jfrog.io/mcp'
     tools: ['*']
